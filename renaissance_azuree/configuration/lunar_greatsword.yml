@@ -1,0 +1,18 @@
+items:
+  renaissance_azuree:lunar_greatsword:
+    material: diamond_sword
+    data:
+      item_name: <!i><#38b3ff><lang:item.renaissance_azuree.lunar_greatsword>
+      unbreakable: true
+    model:
+      path: renaissance_azuree:item/lunar_greatsword
+      generation:
+        parent: herobrine:parent/tall_sword
+        textures:
+          layer0: renaissance_azuree:item/lunar_greatsword
+
+lang:
+  en_us:
+    item.renaissance_azuree.lunar_greatsword: Lunar Greatsword
+  fr_fr:
+    item.renaissance_azuree.lunar_greatsword: Espadon lunaire

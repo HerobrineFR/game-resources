@@ -1,0 +1,16 @@
+items:
+  herobrine:placeable_fog:
+    data:
+      item_name: <!i><lang:item.herobrine.placeable_fog>
+    model: herobrine:block/placeable_fog
+    behavior:
+      type: block_item
+      block:
+        settings:
+          hardness: 99
+        state:
+          auto_state: note_block
+          model:
+            path: herobrine:block/placeable_fog
+            texture: herobrine:block/placeable_fog
+        

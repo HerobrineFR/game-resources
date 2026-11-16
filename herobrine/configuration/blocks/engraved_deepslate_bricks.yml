@@ -1,0 +1,57 @@
+items:
+  herobrine:engraved_deepslate_bricks:
+    model: herobrine:block/engraved_deepslate_bricks
+    data:
+      item_name: <!i><lang:item.herobrine.engraved_deepslate_bricks>
+    behavior:
+      type: block_item
+      block:
+        loot:
+          template: default:loot_table/self
+        settings:
+          hardness: 1.0
+          correct_tools:
+             - minecraft:wooden_pickaxe
+             - minecraft:stone_pickaxe
+             - minecraft:iron_pickaxe
+             - minecraft:golden_pickaxe
+             - minecraft:diamond_pickaxe
+             - minecraft:netherite_pickaxe
+          require_correct_tools: true
+          sounds:
+            break: minecraft:block.deepslate_bricks.break
+            step: minecraft:block.deepslate_bricks.step
+            place: minecraft:block.deepslate_bricks.place
+            hit: minecraft:block.deepslate_bricks.hit
+            fall: minecraft:block.deepslate_bricks.fall
+          tags:
+            - minecraft:mineable/pickaxe
+        state:
+          auto_state: note_block
+          model:
+            path: herobrine:block/engraved_deepslate_bricks
+            textures:
+              - minecraft:block/deepslate_bricks
+              - herobrine:block/engraved_deepslate_bricks
+
+recipes:
+  herobrine:engraved_deepslate_bricks_from_deepslate_bricks:
+    type: stonecutting
+    group: deepslate_bricks
+    ingredient: "minecraft:deepslate"
+    result:
+      id: herobrine:engraved_deepslate_bricks
+      count: 1
+  herobrine:engraved_deepslate_bricks_from_deepslate:
+    type: stonecutting
+    group: deepslate_bricks
+    ingredient: "minecraft:deepslate"
+    result:
+      id: herobrine:engraved_deepslate_bricks
+      count: 1
+
+lang:
+  en_us:
+    item.herobrine.engraved_deepslate_bricks: Engraved Deepslate Bricks
+  fr_fr:
+    item.herobrine.engraved_deepslate_bricks: Pierre des abysses gravée

@@ -1,0 +1,67 @@
+items:
+  renaissance_azuree:glowing_azure_petal:
+    texture: renaissance_azuree:item/glowing_azure_petal
+    material: glow_ink_sac
+    data:
+      item_name: <!i><lang:item.renaissance_azuree.glowing_azure_petal>
+  renaissance_azuree:azure_flower:
+    texture: renaissance_azuree:block/azure_flower
+    data:
+      item_name: <!i><lang:item.renaissance_azuree.azure_flower>
+    behavior:
+      type: block_item
+      block:
+        behaviors:
+          - type: liquid_flowable_block
+          - type: bush_block
+            blacklist: false
+            stackable: false
+            bottom_block_tags:
+              - minecraft:supports_vegetation
+        settings:
+          luminance: 14
+          tags:
+            - herobrine:harvestable_rare_plants
+            - minecraft:small_flowers
+            - minecraft:bee_attractive
+            - minecraft:flowers
+          template:
+            - default:hardness/none
+            - default:sound/grass
+        loot:
+          template: default:loot_table/self
+        state:
+          auto_state: sugar_cane
+          model:
+            path: "renaissance_azuree:block/azure_flower"
+            generation:
+              parent: "minecraft:block/cross"
+              textures:
+                cross: "renaissance_azuree:block/azure_flower"
+
+lang:
+  en_us:
+    item.renaissance_azuree.azure_flower: Azure Flower
+    item.renaissance_azuree.glowing_azure_petal: Glowing Azure Petal
+  fr_fr:
+    item.renaissance_azuree.azure_flower: Fleur azurée
+    item.renaissance_azuree.glowing_azure_petal: Pétale azuré lumineux
+
+recipes:
+  renaissance_azuree:glowing_azure_petal:
+    type: shapeless
+    category: misc
+    ingredients:
+      - renaissance_azuree:azure_flower
+    result:
+      id: renaissance_azuree:glowing_azure_petal
+      count: 1
+  renaissance_azuree:light_blue_dye_azure_petal:
+    type: shapeless
+    category: misc
+    ingredients:
+      - renaissance_azuree:glowing_azure_petal
+    result:
+      id: minecraft:light_blue_dye
+      count: 1
+    

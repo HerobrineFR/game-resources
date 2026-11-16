@@ -1,0 +1,51 @@
+items:
+  herobrine:lavender:
+    data:
+      item_name: <!i><lang:item.herobrine.lavender>
+    texture: herobrine:item/lavender
+    settings:
+      tags:
+        - "minecraft:bee_food"
+        - "minecraft:flowers"
+    behavior:
+      type: block_item
+      block:
+        loot:
+          template: default:loot_table/self
+        behavior:
+          type: bush_block
+          bottom_block_tags:
+            - minecraft:supports_vegetation
+        settings:
+          template:
+            - default:hardness/none
+            - default:sound/grass
+          tags:
+            - minecraft:flowers
+            - minecraft:small_flowers
+            - minecraft:bee_attractive
+            - herobrine:harvestable_plants
+        state:
+          auto_state: higher_tripwire
+          model:
+            path: herobrine:block/lavender
+            generation:
+              parent: minecraft:block/cross
+              textures:
+                cross: herobrine:block/lavender
+
+lang:
+  en_us:
+    item.herobrine.lavender: Lavender
+  fr_fr:
+    item.herobrine.lavender: Lavande
+
+recipes:
+  herobrine:purple_dye_from_lavender:
+    type: shapeless
+    category: misc
+    ingredients:
+      L: 'herobrine:lavender'
+    result:
+      id: 'minecraft:purple_dye'
+      count: 1

@@ -1,0 +1,19 @@
+items:
+  herobrine:playing_card:
+    material: paper
+    data:
+      item_name: Playing Card
+    model:
+      type: minecraft:model
+      path: herobrine:item/playing_card
+      generation:
+        parent: minecraft:item/generated
+        textures:
+          layer0: herobrine:item/playing_card
+categories:
+  herobrine:herobrine:
+    name: <!i>Herobrine
+    icon: herobrine:playing_card
+    priority: 1
+    list:
+      - herobrine:playing_card

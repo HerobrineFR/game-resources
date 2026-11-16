@@ -1,0 +1,52 @@
+items:
+  herobrine:oak_crate:
+    model: herobrine:block/oak_crate
+    data:
+      item_name: <!i><lang:item.herobrine.oak_crate>
+    behavior:
+      type: block_item
+      block:
+        behavior:
+          type: simple_storage_block
+          title: <!i><lang:item.herobrine.oak_crate>
+          rows: 3
+          sounds:
+            open: entity.zombie.attack_wooden_door
+            close: minecraft:block.chest.close
+        loot:
+          template: default:loot_table/self
+        settings:
+          hardness: 1.0
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+          tags:
+            - minecraft:mineable/axe
+        state:
+          auto_state: note_block
+          model:
+            path: herobrine:block/oak_crate
+            texture: herobrine:block/oak_crate
+
+recipes:
+  herobrine:oak_crate:
+    type: shaped
+    pattern:
+      - SPS
+      - P P
+      - SPS
+    ingredients:
+      S: minecraft:stick
+      P: minecraft:oak_planks
+    result:
+      id: herobrine:oak_crate
+      count: 1
+
+lang:
+  en_us:
+    item.herobrine.oak_crate: Oak Crate
+  fr_fr:
+    item.herobrine.oak_crate: Caisse en chêne

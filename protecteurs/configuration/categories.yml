@@ -1,0 +1,13 @@
+categories:
+  protecteurs:global:
+    name: "<!i><green>Protecteurs"
+    icon: protecteurs:riddarasogur
+    list:
+      - "#protecteurs:weapons"
+
+  protecteurs:weapons:
+    name: "<!i>Armes"
+    hidden: true
+    icon: protecteurs:riddarasogur
+    list:
+      - "protecteurs:riddarasogur"

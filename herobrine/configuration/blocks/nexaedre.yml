@@ -1,0 +1,28 @@
+items:
+  herobrine:nexaedre:
+    data:
+      item_name: <!i><lang:item.herobrine.nexaedre>
+    model: herobrine:block/nexaedre
+    behavior:
+      type: block_item
+      block:
+        state:
+          auto_state: solid
+          model: herobrine:block/nexaedre
+          textures:
+            - minecraft:block/lodestone_top
+            - herobrine:block/nexaedre
+        settings:
+          sounds:
+            break: minecraft:block.lodestone.break
+            step: minecraft:block.lodestone.step
+            place: minecraft:block.lodestone.place
+            hit: minecraft:block.lodestone.hit
+            fall: minecraft:block.lodestone.fall
+          hardness: 99
+
+lang:
+  en_us:
+    item.herobrine.nexaedre: Nexaedre
+  fr_fr:
+    item.herobrine.nexaedre: Nexaedre

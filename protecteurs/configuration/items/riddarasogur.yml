@@ -1,0 +1,21 @@
+items:
+  protecteurs:riddarasogur:
+    material: diamond_axe
+    category: "combat"
+    data:
+      item_name: <!i><lang:item.protecteurs.riddarasogur>
+    updater:
+      1:
+        type: transmute
+        material: diamond_axe
+    model:
+      type: minecraft:model
+      path: protecteurs:riddarasogur
+      generation:
+        parent: protecteurs:item/spear_in_hand_low
+        textures:
+          layer0: protecteurs:item/riddarasogur
+
+lang:
+  en_us:
+    item.protecteurs.riddarasogur: Riddarasögur
