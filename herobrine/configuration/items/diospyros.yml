@@ -1,0 +1,30 @@
+items:
+  herobrine:diospyros:
+    material: baked_potato
+    data:
+      item_name: <!i><lang:item.herobrine.diospyros>
+      food:
+        nutrition: 2
+        saturation: 0.5
+    texture: herobrine:item/diospyros
+    behavior:
+      type: compostable_item
+      chance: 0.3
+
+lang:
+  en_us:
+    item.herobrine.diospyros: Diospyros
+
+loot_sources:
+  herobrine:diospyros_leaves:
+    type: block_break
+    target: "herobrine:ebony_leaves"
+    conditions:
+      - type: random
+        value: 0.06
+    loot:
+      pools:
+        - rolls: 1
+          entries:
+            - type: item
+              item: "herobrine:diospyros"
