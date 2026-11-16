@@ -104,8 +104,9 @@ templates#hardness:
     hardness: 3.0
     resistance: 6.0
   default:hardness/obsidian:
-    hardness: 50.0
+    hardness: 4.0
     resistance: 1200.0
+    incorrect_tool_dig_speed: 0.05
   default:hardness/wool:
     hardness: 0.8
     resistance: 0.8

@@ -1,0 +1,35 @@
+config_factory#crying_obsidian:
+  blueprint:
+    items:
+      "serment_pourpre:${name}":
+        data:
+          item_name: "<!i><lang:item.serment_pourpre.${name}>"
+        model: serment_pourpre:block/${name}
+        behavior:
+          type: block_item
+          block:
+            loot:
+              template:
+                - default:loot_table/self
+            state:
+              auto_state: solid
+              texture: serment_pourpre:block/${name}
+            settings:
+              luminance: 10
+              template:
+                - default:sound/stone
+                - default:hardness/obsidian
+              require_correct_tools: true
+              correct_tools:
+                template:
+                 - default:pickaxe_power/level_4
+  instances:
+    - {name: chiseled_crying_obsidian_bricks}
+    - {name: cracked_crying_obsidian}
+    - {name: purple_crying_obsidian}
+
+lang:
+  en_us:
+    item.serment_pourpre.chiseled_crying_obsidian_bricks: Chiseled Crying Obsidian Bricks
+    item.serment_pourpre.cracked_crying_obsidian: Cracked Crying Obsidian
+    item.serment_pourpre.purple_crying_obsidian: Purple Crying Obsidian
