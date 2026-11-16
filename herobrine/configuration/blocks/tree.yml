@@ -611,7 +611,7 @@ $$>=1.20.3:
       - namespace: herobrine
         tree_type: ebony
         asset_path_prefix: herobrine:block/
-        replaced_slab_type: exposed_cut_copper
+        replaced_slab_type: oxidized_cut_copper
         planks_map_color: sand
     blueprint:
       items:
@@ -703,6 +703,3 @@ $$>=1.20.3:
           result:
             id: ${namespace}:${tree_type}_slab
             count: 6
-
-# Defines the tree's appearance using the same structure as Minecraft's vanilla tree feature.
-# Generate this configuration via a data pack editor (see: https://misode.github.io/worldgen/feature/) and export in YAML format.
