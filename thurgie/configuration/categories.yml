@@ -1,0 +1,8 @@
+categories:
+  thurgie:items:
+    name: <!i>La Thurgie
+    icon: minecraft:emerald
+    source:
+      type: regex
+      regex:
+        - "thurgie:.*"

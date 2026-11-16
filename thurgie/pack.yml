@@ -1,0 +1,5 @@
+author: Oblivia
+description: Pack de jeu de la Thurgie.
+version: '1.0'
+namespace: thurgie
+enable: true
