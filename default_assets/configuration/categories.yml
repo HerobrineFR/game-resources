@@ -1,0 +1,24 @@
+# https://xiao-momi.github.io/craft-engine-wiki/configuration/category
+categories:
+  default:default:
+    priority: 1
+    name: <!i><white><l10n:category.default.name></white>
+    lore:
+      - <!i><gray><l10n:category.default.lore>
+    icon: default:chinese_lantern
+    list:
+      - '#default:misc'
+  default:misc:
+    name: <!i><gray><l10n:category.misc></gray>
+    hidden: true
+    icon: default:chinese_lantern
+    list:
+      - default:chinese_lantern
+      - default:pebble
+      - default:sleeper_sofa
+      - default:sofa
+      - default:wooden_chair
+      - default:flower_basket
+      - default:showcase
+      - default:drawer_block
+      - default:candelabrum
