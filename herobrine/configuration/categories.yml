@@ -3,10 +3,6 @@ categories:
     name: "<!i>Items globaux"
     icon: herobrine:lavender
     source:
-      type: list
-      list:
-        - herobrine:lavender
-        - herobrine:nexaedre
-        - herobrine:engraved_deepslate_bricks
-        - herobrine:engraved_stone_bricks
-        - herobrine:oak_crate
+      type: regex
+      regex:
+        - herobrine:.*
