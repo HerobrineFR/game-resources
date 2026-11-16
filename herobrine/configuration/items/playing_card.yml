@@ -1,0 +1,12 @@
+items:
+  herobrine:playing_card:
+    material: paper
+    data:
+      item_name: <!i><lang:item.herobrine.playing_card>
+    texture: herobrine:item/playing_card
+
+lang:
+  en_us:
+    item.herobrine.playing_card: Playing Card
+  fr_fr:
+    item.herobrine.playing_card: Carte à jouer

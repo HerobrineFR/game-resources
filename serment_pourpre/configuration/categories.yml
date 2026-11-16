@@ -1,0 +1,8 @@
+categories:
+  serment_pourpre:items:
+    name: "<!i>Serment Pourpre"
+    icon: minecraft:crying_obsidian
+    source:
+      type: regex
+      regex:
+        - "serment_pourpre:.*"

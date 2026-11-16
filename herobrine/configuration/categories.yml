@@ -1,0 +1,11 @@
+categories:
+  herobrine:items:
+    name: "<!i>Items globaux"
+    icon: herobrine:lavender
+    source:
+      type: list
+      list:
+        - herobrine:lavender
+        - herobrine:nexaedre
+        - herobrine:engraved_deepslate_bricks
+        - herobrine:oak_crate
