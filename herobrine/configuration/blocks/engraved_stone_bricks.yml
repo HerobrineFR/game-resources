@@ -1,0 +1,30 @@
+items:
+  herobrine:engraved_stone_bricks:
+    data:
+      item_name: <!i><lang:item.herobrine.engraved_stone_bricks>
+    model: herobrine:block/engraved_stone_bricks
+    behavior:
+      type: block_item
+      block:
+        loot:
+          template:
+            - default:loot_table/self
+        settings:
+          require_correct_tools: true
+          correct_tools:
+            template:
+              - default:pickaxe_power/level_1
+          tags:
+            - minecraft:mineable/pickaxe
+          template:
+            - default:sound/stone
+            - default:hardness/stone
+        state:
+          auto_state: solid
+          model: herobrine:block/engraved_stone_bricks
+
+lang:
+  en_us:
+    item.herobrine.engraved_stone_bricks: Engraved Stone Bricks
+  fr_fr:
+    item.herobrine.engraved_stone_bricks: Pierre taillée gravée
