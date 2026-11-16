@@ -1,0 +1,5 @@
+author: Oblivia
+description: Pack de jeu du Serment Pourpre.
+version: '1.0'
+namespace: serment_pourpre
+enable: true
