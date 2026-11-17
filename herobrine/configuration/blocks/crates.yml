@@ -11,8 +11,8 @@ items:
           title: <!i><lang:item.herobrine.oak_crate>
           rows: 3
           sounds:
-            open: entity.zombie.attack_wooden_door
-            close: minecraft:block.chest.close
+            open: minecraft:block.barrel.open
+            close: minecraft:block.barrel.close
         loot:
           template: default:loot_table/self
         settings:
