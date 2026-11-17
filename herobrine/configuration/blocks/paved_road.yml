@@ -1,0 +1,20 @@
+items:
+  herobrine:paved_road:
+    data:
+      item_name: <!i><lang:item.herobrine.paved_road>
+    model: herobrine:block/paved_road
+    behavior:
+      type: block_item
+      block:
+        loot:
+          template:
+            - default:loot_table/self
+        settings:
+          template:
+            - default:sound/stone
+            - default:hardness/stone
+          tags:
+            - minecraft:mineable/pickaxe
+        state:
+          auto_state: solid
+          texture: herobrine:block/paved_road
