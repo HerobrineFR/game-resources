@@ -23,6 +23,22 @@ items:
           auto_state: solid
           model: herobrine:block/engraved_stone_bricks
 
+recipes:
+  herobrine:engraved_stone_bricks_from_stone_bricks:
+    type: stonecutting
+    group: stone_bricks
+    ingredient: "minecraft:stone_bricks"
+    result:
+      id: herobrine:engraved_stone_bricks
+      count: 1
+  herobrine:engraved_stone_bricks_from_stone:
+    type: stonecutting
+    group: stone_bricks
+    ingredient: "minecraft:stone"
+    result:
+      id: herobrine:engraved_stone_bricks
+      count: 1
+
 lang:
   en_us:
     item.herobrine.engraved_stone_bricks: Engraved Stone Bricks

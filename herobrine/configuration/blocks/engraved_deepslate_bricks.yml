@@ -38,7 +38,7 @@ recipes:
   herobrine:engraved_deepslate_bricks_from_deepslate_bricks:
     type: stonecutting
     group: deepslate_bricks
-    ingredient: "minecraft:deepslate"
+    ingredient: "minecraft:deepslate_bricks"
     result:
       id: herobrine:engraved_deepslate_bricks
       count: 1
